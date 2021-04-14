@@ -1,4 +1,8 @@
 let texto = document.getElementById('currentColor');
+let botaoTrocarCor = document.getElementById('BotaoTrocarCor');
+botaoTrocarCor.onclick = function (){
+    trocar()
+};
 
 function trocar() {
     let randomNumber =  Math.floor(Math.random() * 20);
